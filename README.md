@@ -81,9 +81,10 @@ The project uses the following tools and libraries:
 
 📌**Results:**
 ### False Positives
-![False Positives](false positives.png)
+![False Positives](false%20positives.png)
 
 ### False Negatives
-![False Negatives](false negatives.png)
+![False Negatives](false%20negatives.png)
+
 
 
