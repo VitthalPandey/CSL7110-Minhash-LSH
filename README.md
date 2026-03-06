@@ -1,41 +1,46 @@
 📌**Assignment Overview.**
 
 The objective of this assignment is to explore different techniques used in large-scale similarity detection. The implementation covers:
-  Construction of k-grams for document representation
-  Computation of exact Jaccard similarity between documents
-  Approximation of similarity using MinHash signatures
-  Identification of candidate pairs using Locality Sensitive Hashing (LSH)
-  Application of these methods to the MovieLens 100K dataset
+- Construction of k-grams for document representation
+- Computation of exact Jaccard similarity between documents
+- Approximation of similarity using MinHash signatures
+- Identification of candidate pairs using Locality Sensitive Hashing (LSH)
+- Application of these methods to the MovieLens 100K dataset
 
 All experiments are implemented in Python using Jupyter Notebook.
 
 📌**Tasks Implemented**
+
 1.**K-Gram Construction**
+
 Different types of k-grams were generated for four documents:
-  a. Character 2-grams
-  b. Character 3-grams
-  c. Word 2-grams
+- Character 2-grams
+- Character 3-grams
+- Word 2-grams
+
 Using these representations, Jaccard similarity was computed between all document pairs to analyze how different representations affect similarity estimation.
 
 2. **MinHashing**
-MinHash signatures were generated for document pairs using different numbers of hash functions.
-Experiments were conducted using:
-   20 hash functions
-   60 hash functions
-   150 hash functions
-   300 hash functions
-   600 hash functions
+
+MinHash signatures were generated for document pairs using different numbers of hash functions. Experiments were conducted using:
+- 20 hash functions
+- 60 hash functions
+- 150 hash functions
+- 300 hash functions
+- 600 hash functions
 
 The approximate Jaccard similarity obtained from MinHash signatures was compared with the exact Jaccard similarity.
 
 3. **Locality Sensitive Hashing (LSH)**
+   
 Locality Sensitive Hashing was applied to efficiently detect document pairs with high similarity. The signature matrix was divided into bands and rows, and the probability of detecting candidate pairs was analyzed using the LSH S-curve model.
 
-4. **MinHashing on MovieLens Dataset**
+5. **MinHashing on MovieLens Dataset**
 
 The MovieLens 100K dataset was used to compute similarity between users based on the set of movies they have rated.
 
 📌**Steps performed:**
+
   1. Compute exact Jaccard similarity between users
   2. Generate MinHash signatures for users
   3. Estimate similarity using signatures
@@ -73,4 +78,5 @@ The project uses the following tools and libraries:
 - Pandas
 - Matplotlib
 - Jupyter Notebook
+
 
