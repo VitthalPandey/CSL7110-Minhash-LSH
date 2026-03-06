@@ -80,6 +80,10 @@ The project uses the following tools and libraries:
 - Jupyter Notebook
 
 📌**Results:**
-![False Positives](false_positive.png)
-![False Negatives](false_negative.png)
+### False Positives
+![False Positives](false positives.png)
+
+### False Negatives
+![False Negatives](false negatives.png)
+
 
