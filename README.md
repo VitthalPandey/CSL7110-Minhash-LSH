@@ -79,4 +79,7 @@ The project uses the following tools and libraries:
 - Matplotlib
 - Jupyter Notebook
 
+📌**Results:**
+![False Positives](false_positive.png)
+![False Negatives](false_negative.png)
 
